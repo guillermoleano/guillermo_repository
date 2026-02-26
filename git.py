@@ -1,4 +1,4 @@
-print("hola como estas seas bienbenido")
+
 bienvenida = input("desea ingresar al sistema de validacion de cedula? (si/no): ")
 if bienvenida.lower() == "si":
     cedula = input("Ingrese su numero de cedula: ")
