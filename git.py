@@ -10,6 +10,6 @@ if bienvenida.lower() == "si":
 elif bienvenida.lower() == "no":
     print("gracias por usar el sistema de validacion de cedula")
 else:    print("opcion no valida, por favor ingrese 'si' o 'no'")
-=======
+
 print("hola como estas xxxxsdf") 
 
