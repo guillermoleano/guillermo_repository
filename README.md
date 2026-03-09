@@ -5,14 +5,15 @@ Este script permite realizar operaciones matemáticas básicas y avanzadas media
 ## Código Fuente
 
 # Pedimos al usuario el primer número y lo convertimos a entero
-
+```
 x = int(input("ingrese un digito"))
+```
 # Pedimos al usuario el segundo número y lo convertimos a entero
-
+```
 y = int(input("ingrese otro digito"))
-
+```
 # Mostramos un menú con las opciones de cálculo y capturamos la opción elegida
-
+```
 opcion = input("Ingrese la opción de calculo deseado: "
       "Opciones de cálculo disponibles:\n"
       "1: Suma\n"
@@ -24,9 +25,9 @@ opcion = input("Ingrese la opción de calculo deseado: "
       "7: Porcentaje\n"
       "8: Módulo (%)\n"
       "9: Promedio de dos números\n")
-
+```
 # Verificamos qué opción eligió el usuario y realizamos la operación correspondiente
-
+```
     # Suma
 if opcion == "1":
     resultado = x + y
@@ -72,4 +73,5 @@ elif opcion == "8":
 elif opcion == "9":
     resultado = (x + y) / 2
     print("El resultado del promedio es:", resultado)
-else:    print("Opción no válida. Por favor, seleccione una opción del 1 al 9.")    
+else:    print("Opción no válida. Por favor, seleccione una opción del 1 al 9.")
+```
